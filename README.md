@@ -1,4 +1,4 @@
-# Decorator Patterm
+# Decorator Pattern
 
 CIMB is a digital bank that offers GSave and UpSave savings accounts.   As with a typical Savings Account, it contains accountNumber, accountName, and a balance for that account.
 
@@ -62,8 +62,8 @@ public class Cimb {
 5. computeBalanceWithInterest() - returns new balance by computing the balance plus the interest depending on the interest rate.
 6. showInfo() - Returns details of account number, account name, and balance.
 
-BankAcountDecorator must be an interface.
-
-Follow instructions. You are not allowed to insert other methods except what is stated in the diagram (setters and getters are allowed).
+- BankAcountDecorator must be an interface.
+- Follow instructions. You are not allowed to insert other methods except what is stated in the diagram (setters and getters are allowed).
 
 # UML Class Diagram
+![UML Class Diagram](decoratorPattern.png)
